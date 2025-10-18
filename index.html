@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Round</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="root">
+    <h1>EASY MODE</h1>
+
+    <section class="login-form">
+      <h2>Login Form</h2>
+      <input type="text" placeholder="Username" id="username" />
+      <input type="password" placeholder="Password" id="password" />
+
+      <div>
+        <input type="checkbox" name="showpass" id="showpass" />
+        <label for="showpass">Show Password</label>
+      </div>
+
+      <button id="login">Login</button>
+    </section>
+
+    <section class="login-history">
+      <h2>Login History</h2>
+
+      
+      <div class="card-holder" id="history">
+        <div class="card">
+          <h3>John Doe</h3>
+          <p>Last login: 2024-06-01 10:00 AM</p>
+        </div>
+
+        <div class="card">
+          <h3>John Doe</h3>
+          <p>Last login: 2024-06-01 10:00 AM</p>
+        </div>
+      </div>
+
+      <button id="clear">Clear History</button>
+    </section>
+
+    <section class="prompt">
+      <h1 style="font-size: 5rem">No CSS?</h1>
+      <img src="images/megamind-no-b.jpg" style="width: 50%" />
+    </section>
+  </body>
+
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,82 @@
+.prompt {
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+}
+
+.root {
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(207, 207, 207);
+}
+
+.login-form {
+    justify-self: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-history {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 80vw;
+    gap: 20px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    gap: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(1, 105, 1, 0.863);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 2rem;
+    background-color: rgba(0, 160, 93, 0.712);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00A05D;
+    color: white;
+    cursor: pointer;
+}
