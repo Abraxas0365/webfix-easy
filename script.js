@@ -27,8 +27,8 @@
       const now = new Date().toLocaleString();
       const card = document.createElement("div");
       card.className = "card";
-      card.innerHTML = `
-        <h3>Not so Easy?</h3>
+      history.innerHTML = `
+        <h3 style = "font-size: 5rem">Not so Easy?</h3>
         <img src="images/Avatar-guy-meme-7bv2j9.jpg" />
       `;
       history.prepend(card);
