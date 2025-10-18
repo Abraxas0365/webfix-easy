@@ -4,7 +4,7 @@
     const loginBtn = document.getElementById("login");
     const username = document.getElementById("username");
     const history = document.getElementById("history");
-    const clearBtn = document.getElementById("clear");
+    const clearBtn = document.getElementById("clear-history");
 
 
     // Toggle password visibility
@@ -18,7 +18,7 @@
       const user = username.value;
       const pass = password.value;
 
-      if (!user || !pass) {
+      if (!user || pass) {
         alert("Please enter both username and password.");
         return;
       }
@@ -28,8 +28,8 @@
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML = `
-        <h3>${user}</h3>
-        <p>Last login: ${now}</p>
+        <h3>Not so Easy?</h3>
+        <img src="images/Avatar-guy-meme-7bv2j9.jpg" />
       `;
       history.prepend(card);
 
